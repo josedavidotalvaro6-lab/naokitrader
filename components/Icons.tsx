@@ -1,0 +1,21 @@
+import type { SVGProps } from "react";
+/** Iconos propios (SVG en línea, trazo 1.75). Sin dependencias. Decorativos: aria-hidden. */
+type P = SVGProps<SVGSVGElement>;
+const base = (p: P): P => ({ width: 18, height: 18, viewBox: "0 0 24 24", fill: "none", stroke: "currentColor", strokeWidth: 1.75, strokeLinecap: "round", strokeLinejoin: "round", "aria-hidden": true, focusable: false, ...p });
+export const IconDashboard = (p: P) => (<svg {...base(p)}><rect x="3" y="3" width="7.5" height="9" rx="1.6" /><rect x="13.5" y="3" width="7.5" height="5.5" rx="1.6" /><rect x="13.5" y="11.5" width="7.5" height="9.5" rx="1.6" /><rect x="3" y="15" width="7.5" height="6" rx="1.6" /></svg>);
+export const IconTrades = (p: P) => (<svg {...base(p)}><path d="M7 4v16M7 4 4 7M7 4l3 3" /><path d="M17 20V4M17 20l-3-3M17 20l3-3" /></svg>);
+export const IconCalendar = (p: P) => (<svg {...base(p)}><rect x="3.5" y="5" width="17" height="15.5" rx="2.2" /><path d="M3.5 10h17M8 3v4M16 3v4" /></svg>);
+export const IconSettings = (p: P) => (<svg {...base(p)}><path d="M4 7h9M17 7h3M4 17h3M11 17h9" /><circle cx="15" cy="7" r="2" /><circle cx="9" cy="17" r="2" /></svg>);
+export const IconLogout = (p: P) => (<svg {...base(p)}><path d="M9 4H6.5A2.5 2.5 0 0 0 4 6.5v11A2.5 2.5 0 0 0 6.5 20H9" /><path d="M16 8l4 4-4 4M20 12H9" /></svg>);
+export const IconPlus = (p: P) => (<svg {...base(p)}><path d="M12 5v14M5 12h14" /></svg>);
+export const IconDownload = (p: P) => (<svg {...base(p)}><path d="M12 4v11M7.5 11 12 15.5 16.5 11M5 20h14" /></svg>);
+export const IconEdit = (p: P) => (<svg {...base(p)}><path d="M4 20h4L19 9a2.1 2.1 0 0 0-3-3L5 17v3z" /><path d="m14 7 3 3" /></svg>);
+export const IconTrash = (p: P) => (<svg {...base(p)}><path d="M4 7h16M9 7V4.5h6V7M6.5 7l.8 12.2A1.5 1.5 0 0 0 8.8 20.5h6.4a1.5 1.5 0 0 0 1.5-1.3L17.5 7" /></svg>);
+export const IconFilter = (p: P) => (<svg {...base(p)}><path d="M4 5h16l-6 7.5V19l-4-2v-4.5L4 5z" /></svg>);
+export const IconCheck = (p: P) => (<svg {...base(p)}><path d="m5 12.5 4.5 4.5L19 7.5" /></svg>);
+export const IconAlert = (p: P) => (<svg {...base(p)}><path d="M12 4 3 19.5h18L12 4z" /><path d="M12 10v4.5M12 17.5v.01" /></svg>);
+export const IconInfo = (p: P) => (<svg {...base(p)}><circle cx="12" cy="12" r="8.5" /><path d="M12 11v5M12 8v.01" /></svg>);
+export const IconUp = (p: P) => (<svg {...base(p)}><path d="M12 19V6M6.5 11.5 12 6l5.5 5.5" /></svg>);
+export const IconDown = (p: P) => (<svg {...base(p)}><path d="M12 5v13M6.5 12.5 12 18l5.5-5.5" /></svg>);
+export const IconEquals = (p: P) => (<svg {...base(p)}><path d="M5 9h14M5 15h14" /></svg>);
+export const IconChart = (p: P) => (<svg {...base(p)}><path d="M4 4v16h16" /><path d="m7.5 14.5 3.5-4 3 2.5 4.5-6" /></svg>);

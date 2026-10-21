@@ -1,0 +1,63 @@
+{
+ "notas_390": {
+  "filas": 108,
+  "visibles": 50,
+  "visibles_sin_contenido": 0,
+  "ocultas": 58,
+  "ocultas_con_texto": 0,
+  "con_texto": 50,
+  "etiqueta_visible_en_vacias": 0
+ },
+ "notas_360": {
+  "filas": 108,
+  "visibles": 50,
+  "visibles_sin_contenido": 0,
+  "ocultas": 58,
+  "ocultas_con_texto": 0,
+  "con_texto": 50,
+  "etiqueta_visible_en_vacias": 0
+ },
+ "notas_1440": {
+  "filas": 108,
+  "visibles": 108,
+  "visibles_sin_contenido": 58,
+  "ocultas": 0,
+  "ocultas_con_texto": 0,
+  "con_texto": 50,
+  "etiqueta_visible_en_vacias": 0
+ },
+ "placeholders": [
+  {
+   "pagina": "/trades",
+   "tipo": "placeholder",
+   "ref": "net_result",
+   "fg": "123,139,163",
+   "bg": "13,18,28",
+   "ratio": 5.41
+  },
+  {
+   "pagina": "/trades",
+   "tipo": "text-faint (separador; fondo = html)",
+   "ref": "/",
+   "fg": "123,139,163",
+   "bg": "8,11,18",
+   "ratio": 5.68
+  },
+  {
+   "pagina": "/settings",
+   "tipo": "text-faint (separador; fondo = html)",
+   "ref": "/",
+   "fg": "123,139,163",
+   "bg": "8,11,18",
+   "ratio": 5.68
+  },
+  {
+   "pagina": "/login",
+   "tipo": "text-faint (separador; fondo = html)",
+   "ref": "/",
+   "fg": "123,139,163",
+   "bg": "8,11,18",
+   "ratio": 5.68
+  }
+ ]
+}

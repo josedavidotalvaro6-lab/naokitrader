@@ -1,0 +1,84 @@
+[
+ {
+  "v": "1024",
+  "name": "login",
+  "url": "/login",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "dashboard",
+  "url": "/dashboard",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "dashboard-vacio",
+  "url": "/dashboard",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "trades",
+  "url": "/trades",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [
+   "table.tbl rt r=1443",
+   "thead. r=1443",
+   "tr. r=1443",
+   "th.label r=1206"
+  ],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "trades-vacio",
+  "url": "/trades",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "calendar",
+  "url": "/calendar",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ },
+ {
+  "v": "1024",
+  "name": "settings",
+  "url": "/settings",
+  "overflowX": false,
+  "sw": 1024,
+  "W": 1024,
+  "off": [],
+  "console": [],
+  "axe": []
+ }
+]
